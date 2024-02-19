@@ -7,7 +7,9 @@ function hideElements(elementId){
         const element = document.getElementById(elementId);
         element.classList.remove('hidden');
         }
-    
+    function Show(){
+        showElements('select-seat');
+    }
         function getTextElementValueById(elementId){
             const element = document.getElementById(elementId);
             const value= element.innerText ;
